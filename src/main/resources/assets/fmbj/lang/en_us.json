@@ -1,0 +1,16 @@
+{
+"item.fmbj.ruby": "Ruby",
+"item.fmbj.purple_apple": "Purple Apple",
+"block.fmbj.ruby_block": "Block of Ruby",
+"item.fmbj.ruby_sword": "Ruby Sword",
+"item.fmbj.ruby_pickaxe": "Ruby Pickaxe",
+"item.fmbj.ruby_axe": "Ruby Axe",
+"item.fmbj.ruby_shovel": "Ruby Shovel",
+"item.fmbj.ruby_hoe": "Ruby Hoe",
+"item.fmbj.ruby_helmet": "Ruby Helmet",
+"item.fmbj.ruby_chestplate":"Ruby Chestplate",
+"item.fmbj.ruby_leggings":"Ruby Leggings",
+"item.fmbj.ruby_boots":"Ruby Boots",
+"itemGroup.meaningless_mod":"Meaningless Mod"
+
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:emerald"
+  },
+  "result": "fmbj:ruby",
+  "count": 3,
+  "experience": 1.0,
+  "cookingtime": 100
+}

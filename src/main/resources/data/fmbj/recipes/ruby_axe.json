@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "xx ",
+    "xy ",
+    " y "
+  ],
+  "key":
+  {
+    "x":
+    {
+      "item": "fmbj:ruby"
+    },
+    "y":
+    {
+      "item": "minecraft:stick"
+    }
+  },
+  "result":
+  {
+    "item": "fmbj:ruby_axe",
+    "count": 1
+  }
+}
