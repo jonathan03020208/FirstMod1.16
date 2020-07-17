@@ -4,7 +4,9 @@ import com.Jo.FirstModEver.First;
 import com.Jo.FirstModEver.Tools.ModItemTier;
 import com.Jo.FirstModEver.armor.ModArmorMaterial;
 import com.Jo.FirstModEver.blocks.BlockItemBase;
+import com.Jo.FirstModEver.blocks.Oven;
 import com.Jo.FirstModEver.blocks.RubyBlock;
+import com.Jo.FirstModEver.blocks.RubyOre;
 import com.Jo.FirstModEver.items.ItemBase;
 import com.Jo.FirstModEver.items.PurpleApple;
 import net.minecraft.block.Block;
@@ -32,11 +34,13 @@ public class RegistryHandler {
 
         //Blocks
         public static final RegistryObject<Block> RUBY_BLOCK = BLOCKS.register("ruby_block", RubyBlock::new);
-
+        public static final RegistryObject<Block> RUBY_ORE = BLOCKS.register("ruby_ore", RubyOre::new);
+        public static final RegistryObject<Block> OVEN = BLOCKS.register("oven", Oven::new);
 
         //Block Items
         public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block",()-> new BlockItemBase(RUBY_BLOCK.get()));
-
+        public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore",()-> new BlockItemBase(RUBY_ORE.get()));
+        public static final RegistryObject<Item> OVEN_ITEM = ITEMS.register("oven",()-> new BlockItemBase(OVEN.get()));
 
         //Tools
         public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword",()->

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "fmbj:ruby_ore"
+  },
+  "result": "fmbj:ruby",
+  "count": 8,
+  "experience": 2.0,
+  "cookingtime": 100
+}
